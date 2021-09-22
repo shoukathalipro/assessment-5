@@ -1,0 +1,363 @@
+/*
+//////////////////////////////
+ media query for laptop screen
+ /////////////////////////////
+  */
+
+@media (max-width: 1280px) {
+  body {
+    background: url("../images/image1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+  /* styling for the top banner */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 27px;
+    height: 25vh;
+    margin-bottom: 160px;
+  }
+
+  .banner1 {
+    color: white;
+    background-color: black;
+    border: red solid 12px;
+    border-radius: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 30px;
+    left: 15px;
+  }
+
+  .banner2 {
+    color: white;
+    background-color: black;
+    border: red solid 12px;
+    border-radius: 50px;
+    padding-left: 85px;
+    padding-right: 40px;
+    padding-top: 29px;
+    padding-bottom: 15px;
+    position: relative;
+    top: 45px;
+    right: 143px;
+  }
+
+  .banner3 {
+    color: white;
+    background-color: black;
+    border: red solid 12px;
+    border-radius: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 0px;
+    right: 25px;
+    top: 10px;
+  }
+
+  /* styling for the registration (middle) section */
+
+  .register-head {
+    font-size: 30px;
+    color: indianred;
+    font-weight: bold;
+  }
+
+  .register-form {
+    font-size: 21px;
+  }
+
+  .register-form-in {
+    text-align: center;
+  }
+
+  .registration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 180px;
+    margin-top: 180px;
+  }
+
+  .registration1 {
+    text-align: center;
+    width: 400px;
+    margin: 3em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline black;
+    color: black;
+    background-color: #00b1b1;
+    border: rgb(95, 95, 95) solid 12px;
+    border-radius: 50%;
+    height: 400px;
+    position: relative;
+    right: 80px;
+  }
+
+  .registration2 {
+    text-align: center;
+    width: 30em;
+    margin: 3em;
+    padding: 0.5em;
+    text-align: center;
+    color: rgb(173, 91, 167);
+    background-color: rgb(250, 235, 238);
+    border: rgb(158, 54, 54) dashed 12px;
+    position: relative;
+    right: 160px;
+  }
+
+  /* syling for the menu heading, hotel menu, hotel menu1, hotel head and hotel items */
+
+  .menu-heading {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: red solid 12px;
+    border-radius: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    left: 30%;
+  }
+
+  .hotel-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+
+  .hotel-menu1 {
+    background-color: rgb(140, 255, 255);
+    color: rgb(99, 68, 125);
+    border: rgb(38, 112, 38) solid 4px;
+    border-radius: 50px;
+    padding-top: 30px;
+    margin: 30px;
+  }
+
+  .hotel-head {
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+  .hotel-items {
+    width: 15em;
+    font-size: 20px;
+  }
+}
+
+/* 
+////////////////////////////
+media query for bigger screen
+////////////////////////////
+ */
+
+@media (min-width: 1281px) {
+  body {
+    background: url("../images/image1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+  /* styling for the top banner */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    height: 25vh;
+    margin-bottom: 160px;
+  }
+
+  .banner1 {
+    color: white;
+    background-color: black;
+    border: red solid 12px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 30px;
+  }
+
+  .banner2 {
+    color: white;
+    background-color: black;
+    border: red solid 12px;
+    border-radius: 50px;
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 45px;
+    right: 272px;
+  }
+
+  .banner3 {
+    color: white;
+    background-color: black;
+    border: red solid 12px;
+    border-radius: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+  }
+
+  /* styling for the registration (middle) section */
+
+  .register-head {
+    font-size: 30px;
+    color: indianred;
+    font-weight: bold;
+  }
+
+  .register-form {
+    font-size: 21px;
+  }
+
+  .register-form-in {
+    text-align: center;
+  }
+
+  .registration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 180px;
+    margin-top: 180px;
+  }
+
+  .registration1 {
+    text-align: center;
+    width: 400px;
+    margin: 3em;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline black;
+    color: black;
+    background-color: #00b1b1;
+    border: rgb(95, 95, 95) solid 12px;
+    border-radius: 50%;
+    height: 400px;
+    position: relative;
+    right: 80px;
+  }
+
+  .registration2 {
+    text-align: center;
+    width: 30em;
+    margin: 3em;
+    padding: 0.5em;
+    text-align: center;
+    color: rgb(173, 91, 167);
+    background-color: rgb(250, 235, 238);
+    border: rgb(158, 54, 54) dashed 12px;
+    position: relative;
+    right: 160px;
+  }
+
+  /* syling for the menu heading, hotel menu, hotel menu1, hotel head and hotel items */
+
+  .menu-heading {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: red solid 12px;
+    border-radius: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    left: 35%;
+  }
+
+  .hotel-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+
+  .hotel-menu1 {
+    background-color: rgb(140, 255, 255);
+    color: rgb(99, 68, 125);
+    border: rgb(38, 112, 38) solid 4px;
+    border-radius: 50px;
+    padding-top: 30px;
+    margin: 30px;
+  }
+
+  .hotel-head {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .hotel-items {
+    width: 15em;
+    font-size: 30px;
+  }
+}
