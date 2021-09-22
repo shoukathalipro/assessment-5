@@ -10,6 +10,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
+    border: groove greenyellow 12px;
+    margin: 0px;
   }
 
   /* styling for the top banner */
@@ -193,6 +195,8 @@ media query for bigger screen
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
+    border: groove greenyellow 15px;
+    margin: 0px;
   }
 
   /* styling for the top banner */
